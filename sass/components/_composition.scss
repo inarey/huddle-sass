@@ -1,0 +1,33 @@
+.composition {
+	
+	
+	&__photo {
+		margin: 2rem;
+		padding-left: 2rem;
+		position: absolute;
+		top: .5rem;
+		right: 18rem;
+		width: 45%;
+		// background-color: rgb(18, 192, 18);
+	}
+}
+
+.main__image {
+	width: 50%;
+	position: relative;
+
+	&--right {
+		width: 42rem;
+		position: absolute;
+		top: 1rem;
+		left: 70rem;
+	}
+
+	&--left {
+width: 42rem;
+position: absolute;
+top: 1rem;
+left: 10rem;
+	}
+
+}

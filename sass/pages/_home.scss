@@ -1,0 +1,31 @@
+.main-section {
+ margin: 10rem;
+
+ &__card {
+  background-color: $color-secondary-pale;
+  margin-bottom: 5rem;
+  height: 50rem;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 4rem rgba($color-black, .20);
+  padding: 5rem;
+
+  &--2 {
+   position: relative;
+  }
+
+ }
+
+ &__text {
+  width: 60rem;
+  height: 40rem;
+  align-items: center;
+  margin: 1rem;
+
+  &--right {
+   position: absolute;
+   top: 0;
+   right: 2rem;
+  }
+ }
+
+}

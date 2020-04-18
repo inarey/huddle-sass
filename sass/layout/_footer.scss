@@ -1,0 +1,99 @@
+.footer {
+  width: 100%;
+  height: 55rem;
+  background-color: $color-secondary-dark;
+  position: relative;
+
+  &__info {
+    // background-color: yellow;
+    width: 43rem;
+    height: 30rem;
+    margin-right: 2rem;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+
+
+    &--logo {
+      filter: invert(20%);
+
+      &::hover {
+        background-color: white;
+      }
+    }
+
+    &--items {
+      list-style: none;
+      position: relative;
+      padding: 1rem;
+      font-size: 1.5rem;
+
+      &-icon {
+        padding: .5rem 1rem;
+      }
+    }
+
+    &--links {
+      
+      text-align: left;
+    }
+  }
+
+  &__navi {
+    font-size: 1.5rem;
+    width: 50rem;
+    height: 30rem;
+    margin-right: 2rem;
+    position: absolute;
+    top: 15rem;
+    left: 55rem;
+    display: flex;
+
+    &--left {
+      margin-bottom: 2rem;
+      padding: 5rem;
+      display: flex;
+      align-items: left;
+      
+      &-items {
+        padding: 1rem;
+      }
+    }
+
+    &--right {
+      padding: 5rem;
+      display: flex;
+      align-items: right;
+
+      &-items {
+        padding: 1rem;
+      }
+      
+    }
+
+  }
+
+  &__sms {
+    width: 25rem;
+    height: 30rem;
+    padding: 4rem;
+    position: absolute;
+    top: 15rem;
+    right: 10rem;
+
+    &--icons {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+  }
+}
+
+.thank-you {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  background-color: $color-secondary-greyish;
+  font-size: 1.5rem;
+  color: $color-secondary-dark;
+  text-align: center;
+}
